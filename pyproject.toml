@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dbt-duckdb"
+version = "0.1.0"
+description = "duckdb and dbt testing"
+authors = ["Paulo Aguiar <aguiarlapaulo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+duckdb = "^0.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
